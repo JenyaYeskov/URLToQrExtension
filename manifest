@@ -9,9 +9,9 @@
     "default_icon": "",
     "default_popup": ""
   },
+
   "permissions": [
     "activeTab",
     "tabs"
   ]
-
 }
