@@ -1,0 +1,21 @@
+{
+
+
+  "name": "URL to qr extension",
+  "description": "This extension allows the user to convert URL of current page to QR code, so he can scan it with his mobile phone, and easily go to the encoded link.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_security_policy":"script-src 'self' background.js; object-src 'self'",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs"
+  ]
+}

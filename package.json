@@ -1,0 +1,20 @@
+{
+  "name": "urltoqrextension",
+  "version": "1.0.0",
+  "description": "Browser extention that convert URL of current page to qr code",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenyaYeskov/URLToQrExtension.git"
+  },
+  "author": "Jenya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenyaYeskov/URLToQrExtension/issues"
+  },
+  "homepage": "https://github.com/JenyaYeskov/URLToQrExtension#readme",
+  "dependencies": {}
+}
